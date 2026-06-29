@@ -15,4 +15,4 @@ The network is evolving from a centralised federated server into a decentralised
 | [construct-engine](https://github.com/konstruct-msg/construct-engine) | QUIC transport engine for relay-to-relay and relay-to-client communication. |
 | [construct-veil](https://github.com/konstruct-msg/construct-veil) | DPI-resistant transport layer: obfs4, WebTunnel, and the next-generation veil-front protocol. |
 | [construct-ios](https://github.com/konstruct-msg/construct-ios) | iOS and macOS client (Swift). |
-| [construct-protocol](https://github.com/konstruct-msg/construct-protocol) | Protocol specification, whitepaper, and architecture decision records. |
+| [construct-protocol](https://github.com/konstruct-msg/construct-protocol) | Protocol specification, whitepaper, and architecture decision records. Published at [konstruct-msg.github.io/construct-protocol](https://konstruct-msg.github.io/construct-protocol/). |
