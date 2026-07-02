@@ -4,7 +4,7 @@
 
 Konstruct is an open-source, federated encrypted messenger built on the Signal Protocol design (X3DH + Double Ratchet) with a hybrid post-quantum key exchange (ML-KEM-768). The server operates on a zero-knowledge principle — messages are held in Redis Streams and deleted once the client acknowledges delivery via cursor-based trim. An hourly background task enforces a 30-day retention ceiling for unacknowledged messages. The database stores only public keys and non-decryptable metadata. All cryptography executes client-side in a shared Rust core with platform-specific Swift/Kotlin wrappers via UniFFI.
 
-The network is evolving from a centralised federated server into a decentralised mesh of lightweight relay nodes (see the [decentralization roadmap](https://github.com/konstruct-msg/construct-protocol)).
+The network is evolving from a centralised federated server into a decentralised mesh of lightweight relay nodes.
 
 ### Repository Map
 
