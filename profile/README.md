@@ -38,8 +38,9 @@ a design and not a claim about maturity.
 **Core**
 
 - **[construct-core](https://github.com/konstruct-msg/construct-core)** — cryptographic
-  engine: X3DH, Double Ratchet, PQXDH (ML-KEM-768 + X25519), hybrid Ed25519 + ML-DSA-65
-  signatures. Shared Rust core with UniFFI bindings.
+  engine: X3DH, Double Ratchet, PQXDH (ML-KEM-768 + X25519), and hybrid Ed25519 +
+  ML-DSA-65 signatures — implemented and cross-verified, not yet active on the wire.
+  Shared Rust core with UniFFI bindings.
 - **[construct-protos](https://github.com/konstruct-msg/construct-protos)** — protobuf
   definitions shared by the server and every client.
 
